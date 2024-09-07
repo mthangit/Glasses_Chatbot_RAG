@@ -5,7 +5,7 @@ from langchain_community.embeddings import GPT4AllEmbeddings
 from langchain_community.vectorstores import FAISS
 
 # Cau hinh
-model_file = "models/vinallama-7b-chat_q5_0.gguf"
+model_file = "models/SeaLLM-7B-v2.5.IQ3_XS.gguf"
 vector_db_path = "vectorstores/db_faiss"
 
 # Load LLM

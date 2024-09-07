@@ -23,7 +23,6 @@ def create_db_from_text():
         chunk_size=512,
         chunk_overlap=50,
         length_function=len
-
     )
 
     chunks = text_splitter.split_text(raw_text)
@@ -52,5 +51,5 @@ def create_db_from_files():
     return db
 
 
-create_db_from_files()
+create_db_from_text()
 
