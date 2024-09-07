@@ -55,6 +55,9 @@ prompt = creat_prompt(template)
 
 llm_chain  =create_qa_chain(prompt, llm, db)
 
+def run_test():
+    print("Hello world")
+
 # Chay cai chain
 question = "Ngày 18/12, SHB đã làm gì?"
 response = llm_chain.invoke({"query": question})
